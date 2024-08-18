@@ -1,0 +1,103 @@
+$primary-text-color: lightslategray;
+$background-color: #dcdfe2;
+$font-color: #a8abae;
+
+.sidebar {
+    width: 4%;
+    background-color: #166D3B;
+}
+.content {
+    width: 96%;
+}
+.bg-normalgray {
+    background-color: #a7b99e; 
+}
+.bg-drkgray {
+    background-color: #50595c;
+}
+.light-color {
+    color: $primary-text-color;
+}
+.img-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.details-container {
+    height: calc(100vh - 28%);
+
+    .ticket-status {
+        background-color: $background-color;
+    }
+    .left-section {
+        width: 30%;
+    }
+    .middle-section {
+        width: 40%;
+    }
+    .right-section {
+        width: 30%;
+    
+    }
+}
+
+.prifile {
+    width: 12%;
+}
+.comments {
+    width: 86%;
+}
+.f-color {
+    color: $font-color;
+}
+.tag-bg {
+    background-color: $background-color;
+}
+.timeline  .sc-imWYAI.oaLap {
+    display: none !important;
+}
+.timeline section time {
+    display: none;
+}
+.timeline section span {
+    display: none;
+}
+.timeline .hJTKhy {
+    display: none;
+}
+.timeline .sc-gsFSXq.jRrtxn {
+    font-size: 14px !important;
+}
+.timeline .sc-kAyceB.gUQdKz {
+    font-size: 10px !important;
+}
+.timeline .EkZiG {
+    min-height: 50px;
+    /* padding-bottom: 4px; */
+    padding-left: 25px;
+    position: relative;
+}
+.profile-left {
+    width: 90%;
+}
+.profile-right {
+    width: 10%;
+}
+
+.table-container {
+    height: calc(100vh - 20%);
+}
+.table-header th {
+    font-size: 10px !important;
+    padding: 5px 10px !important;
+    text-align: center;
+}
+
+.table-row td {
+    font-size: 10px !important;
+    padding: 10px 10px;
+    text-align: center;
+}
+.css-1u9des2-indicatorSeparator {
+    display: none !important;
+}
